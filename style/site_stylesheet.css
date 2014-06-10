@@ -1,0 +1,301 @@
+@import url(/style/fonts/Open_Sans.css);
+
+html
+{
+	font-family: "Open Sans";
+	font-size: 10pt;
+	margin: 0;
+}
+
+/* This section controls the centralisation of the MAIN AREA and its background colours */
+#fake_body
+{
+	background: rgba(90, 73, 21, .9);
+	width: 800px;
+	margin: 0px auto;
+	min-height: 100%;
+}
+
+
+/* This section holds the controls for the BACKGROUND PHOTO */
+body
+{
+	min-height: 100%;
+	width: 100%;
+	display: block;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 7%, rgba(0,0,0,0.1) 19%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.65) 100%),url("../images/main_image.jpg"); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,rgba(0,0,0,0)), color-stop(19%,rgba(0,0,0,0.1)), color-stop(84%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65))),url("../images/main_image.jpg"); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 7%,rgba(0,0,0,0.1) 19%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 100%),url("../images/main_image.jpg"); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 7%,rgba(0,0,0,0.1) 19%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 100%),url("../images/main_image.jpg"); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 7%,rgba(0,0,0,0.1) 19%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 100%),url("../images/main_image.jpg"); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 7%,rgba(0,0,0,0.1) 19%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 100%),url("../images/main_image.jpg"); /* W3C */
+	background: url("../images/main_image.jpg");
+	background-color: #fff;
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+#logo
+{
+	padding-top: 2ex;
+	padding-left: 2em;
+}
+
+#twitter
+{
+	float: right;
+	padding-top: 1em;
+	padding-right: 3em;
+}
+
+#email
+{
+	float: right;
+	padding-top: 1em;
+	padding-right: 3em;
+}
+
+#email a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#email a:hover
+{
+	color: #B4C93E;
+}
+
+/* Slogan Controls*/
+
+#slogan
+{	
+	float: right;
+	clear: both;
+	text-align: right;
+	padding-top: 2em;
+	padding-right: 3em;
+}
+
+#slogan h3
+{
+	color: white;
+	font-size: 90%;
+	font-weight: italic;
+}
+
+/* Navigation Controls */
+#nav
+{
+
+	text-transform: lowercase;
+	list-style-type: none;
+	text-align: right;
+	padding-right: 1em;
+	background-color: #B4C93E;
+	height: 2em;
+}
+
+#nav a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 140%;
+}
+
+#nav li
+{
+	display: inline;
+	padding: 1em 2em 0 0;
+}
+
+#nav a:hover
+{
+	color: #5A4915;
+}
+
+h2
+{
+	color: white;
+	padding-left: 1.75em;
+	font-size: 170%;
+}
+
+h3
+{
+	color: #B4C93E;
+	padding-left: 2.5em;
+}
+
+h4
+{
+	color: #B4C93E;
+	padding-left: 3em;
+}
+
+p
+{
+	color: white;
+	text-align: justify;
+	width: 500px;
+	padding-left: 3em;
+}
+
+fieldset
+{
+	border: 2px solid #B4C93E;
+	width: 300px;
+	margin-left: 9em;
+}
+
+legend
+{
+	text-align: left;
+	color: #FFF;
+	margin: 1ex 0.5ex 0 0.5ex;
+	padding-bottom: 0.5ex;
+	background-color: #B4C93E;
+	padding: 0 0.5em 0 0.5em;
+	text-transform: uppercase;
+}
+
+th
+{
+	color: white;
+	text-align: left;
+	padding-right: 2em;
+}
+
+input.short
+{
+ 	width: 152px;
+}
+
+#main_content
+{
+	position: absolute;
+	min-height: 100%;
+	float: left;
+	width: 800px;
+	margin: 0px auto;
+	background: rgba(90, 73, 21, .9);
+}
+
+#main_content a
+{
+	color: white;
+}
+
+#main_content a:hover
+{
+	color: #B4C93E;
+}
+
+#side_content
+{
+	float: right;
+	width: 200px;
+	margin: 0px auto;
+	padding: 4ex 0 0 0;
+}
+
+#side_content a
+{
+	color: white;
+}
+
+#side_content a:hover
+{
+	color: #B4C93E;
+}
+
+#side_content h4
+{
+	width: 190px;
+	padding-left: 1em;
+	padding-top: 0;
+}
+
+#side_content h2
+{
+	color: white;
+	padding-left: 0.6em;
+	font-size: 150%;
+}
+
+#sub_nav table
+{
+	width: 600px;
+	background-color: #B4C93E;
+}
+
+#sub_nav td
+{
+	text-align:center;
+}
+
+#sub_nav a
+{
+ 	color: white;
+	text-decoration: none;
+	width: 100px;
+}
+
+#paypal
+{
+	position: absolute;
+	padding-left: 31.5em;
+}
+
+.new_event
+{
+	width: 170px;
+	margin-left: -1em;
+	padding-top: 1ex;
+	border: solid 2px #B4C93E;
+	margin-top: 2ex;
+}
+
+.new_event h4
+{
+	margin: 0 0 0 0;
+	width: 150px;
+	padding: 0 0 0 0;
+}
+
+.new_event p
+{
+	text-align: justify;
+	font-weight: bold;
+	width: 150px;
+	padding: 0 0 0 8px;
+}
+
+#facebook
+{
+	padding-left: 2em;
+	margin-top: -1em;
+	margin-left: -3em;
+}
+
+#donate
+{
+	padding-left: 0.25em;
+}
+
+.spacer
+{
+	background-color: #B4C93E;
+	width: 500px;
+	height: 2px;
+	margin-left: 40px;
+}
+
+.side
+{
+	margin-left: -2em;
+}
