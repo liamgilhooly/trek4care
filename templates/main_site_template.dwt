@@ -17,7 +17,7 @@
 	</div>
 		
 	<div id="email">
-	<a href="mailto:vicki@trek4care.co.uk">viki@trek4care.co.uk</a>	</div>
+	<a href="mailto:vikburton@live.co.uk">vikburton@live.co.uk</a></div>
 	
 	<div id="slogan">
 	<h3>Doing our bit to support the wonderful people at Marie Curie</h3>
@@ -43,11 +43,15 @@
 
 
 	<div id="side_content">
+		<div id="marie_curie">
+		<img src="../images/marie_curie.jpg" alt="Marie Curie">
+		</div>
+		
 		<div class="new_event">
 		<h4>Upcoming Event:</h4>
 		<p>Ladies fashion show and glamour evening</p>
 		<p>Friday 10th October at the Craiglands Hotel</p>
-		<p><a href="events.html">show details</a></p>
+		<p><a href="../events.html">show details</a></p>
 		</div>
 
 		<div class="new_event">
@@ -61,11 +65,12 @@
 			</div>
 		</div>
 
+		<div class="new_event">
 		<h4 class="side">Visit us on Facebook:</h4>
 			<div id="facebook">
 		<!-- Facebook Badge START --><a href="https://www.facebook.com/Trekforcare" target="_TOP" style="font-family: Open Sans; font-size: 14px; font-variant: normal; font-style: normal; font-weight: normal; color: #B4C93E; text-decoration: none; margin-bottom: 2px;" title="Trek4care"></a><br/><a href="https://www.facebook.com/Trekforcare" target="_TOP" title="Trek4care"><img src="https://badge.facebook.com/badge/458424490958635.1015.1545201219.png" style="border: 0px;" /></a><!-- Facebook Badge END -->
 			</div>	
-
+		</div>
 	</div>
 	<h2><!-- TemplateBeginEditable name="editable_title" -->editable_title<!-- TemplateEndEditable --></h2>
 
